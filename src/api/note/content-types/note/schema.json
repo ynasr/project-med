@@ -4,7 +4,8 @@
   "info": {
     "singularName": "note",
     "pluralName": "notes",
-    "displayName": "Note"
+    "displayName": "Note",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,12 @@
   "attributes": {
     "response": {
       "type": "text"
+    },
+    "prompt": {
+      "type": "text"
+    },
+    "pass": {
+      "type": "boolean"
     }
   }
 }
